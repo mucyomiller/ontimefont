@@ -1,5 +1,5 @@
 # Ontimefont
-Ontimefont is custom font  icons created with :heart: by ontimeservices team  using icoonmoon app   
+Ontimefont is custom font  icons created with :heart: by ontimeservices team  using icomoon.io web app   
 to be use in ontimeservices.io ios/android (native android or flutter/react-native) apps
 ## Usage   
 ### flutter 
