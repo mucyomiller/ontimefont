@@ -1,0 +1,475 @@
+@font-face {
+  font-family: 'ontime';
+  src:  url('fonts/ontime.eot?o8kati');
+  src:  url('fonts/ontime.eot?o8kati#iefix') format('embedded-opentype'),
+    url('fonts/ontime.ttf?o8kati') format('truetype'),
+    url('fonts/ontime.woff?o8kati') format('woff'),
+    url('fonts/ontime.svg?o8kati#ontime') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+
+[class^="ic_"], [class*=" ic_"] {
+  /* use !important to prevent issues with browser extensions that change fonts */
+  font-family: 'ontime' !important;
+  speak: none;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+
+  /* Better Font Rendering =========== */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.ic_no_data:before {
+  content: "\e900";
+}
+.ic_add_plus:before {
+  content: "\e901";
+}
+.ic_ok:before {
+  content: "\e902";
+}
+.ic_arrow_forward:before {
+  content: "\e903";
+}
+.ic_web:before {
+  content: "\e904";
+}
+.ic_add_camera:before {
+  content: "\e905";
+}
+.ic_post:before {
+  content: "\e906";
+}
+.ic_chat:before {
+  content: "\e907";
+}
+.ic_about_circle:before {
+  content: "\e908";
+}
+.ic_connect:before {
+  content: "\e909";
+}
+.ic_circle:before {
+  content: "\e90a";
+}
+.ic_phone_bold:before {
+  content: "\e90b";
+}
+.ic_email_bold:before {
+  content: "\e90c";
+}
+.ic_message:before {
+  content: "\e90d";
+}
+.ic_like:before {
+  content: "\e90e";
+}
+.ic_comment:before {
+  content: "\e90f";
+}
+.ic_liked:before {
+  content: "\e910";
+}
+.ic_smartphone:before {
+  content: "\e911";
+}
+.ic_mail:before {
+  content: "\e912";
+}
+.ic_user:before {
+  content: "\e913";
+}
+.ic_lock:before {
+  content: "\e914";
+}
+.ic_people_bordered:before {
+  content: "\e915";
+}
+.ic_menu:before {
+  content: "\e916";
+}
+.ic_people:before {
+  content: "\e917";
+  color: #5b4daf;
+}
+.ic_work:before {
+  content: "\e918";
+}
+.ic_homesvg:before {
+  content: "\e919";
+}
+.ic_sign_in:before {
+  content: "\e91a";
+}
+.ic_startup .path1:before {
+  content: "\e91b";
+  color: rgb(248, 182, 76);
+}
+.ic_startup .path2:before {
+  content: "\e91c";
+  margin-left: -1em;
+  color: rgb(255, 209, 92);
+}
+.ic_startup .path3:before {
+  content: "\e91d";
+  margin-left: -1em;
+  color: rgb(255, 112, 88);
+}
+.ic_startup .path4:before {
+  content: "\e91e";
+  margin-left: -1em;
+  color: rgb(242, 242, 242);
+}
+.ic_startup .path5:before {
+  content: "\e91f";
+  margin-left: -1em;
+  color: rgb(64, 89, 107);
+}
+.ic_startup .path6:before {
+  content: "\e920";
+  margin-left: -1em;
+  color: rgb(64, 89, 107);
+}
+.ic_startup .path7:before {
+  content: "\e921";
+  margin-left: -1em;
+  color: rgb(242, 242, 242);
+}
+.ic_startup .path8:before {
+  content: "\e922";
+  margin-left: -1em;
+  color: rgb(64, 89, 107);
+}
+.ic_startup .path9:before {
+  content: "\e923";
+  margin-left: -1em;
+  color: rgb(132, 219, 255);
+}
+.ic_startup .path10:before {
+  content: "\e924";
+  margin-left: -1em;
+  color: rgb(84, 192, 235);
+}
+.ic_more:before {
+  content: "\e925";
+}
+.ic_camera:before {
+  content: "\e926";
+}
+.ic_add_company:before {
+  content: "\e927";
+}
+.ic_add_category:before {
+  content: "\e928";
+}
+.ic_avatar:before {
+  content: "\e929";
+}
+.ic_favorited:before {
+  content: "\e92a";
+}
+.ic_remove_favorite:before {
+  content: "\e92b";
+}
+.ic_add_favorite_heart:before {
+  content: "\e92c";
+}
+.ic_favorite:before {
+  content: "\e92d";
+}
+.ic_add_favorite:before {
+  content: "\e92e";
+}
+.ic_arrow_up:before {
+  content: "\e92f";
+}
+.ic_arrow_down:before {
+  content: "\e930";
+}
+.ic_favorite_icon:before {
+  content: "\e931";
+}
+.ic_favorite_place:before {
+  content: "\e932";
+}
+.ic_confirmation:before {
+  content: "\e933";
+}
+.ic_mobile .path1:before {
+  content: "\e934";
+  color: rgb(30, 136, 229);
+}
+.ic_mobile .path2:before {
+  content: "\e935";
+  margin-left: -1em;
+  color: rgb(40, 53, 147);
+}
+.ic_mobile .path3:before {
+  content: "\e936";
+  margin-left: -1em;
+  color: rgb(236, 239, 241);
+}
+.ic_mobile .path4:before {
+  content: "\e937";
+  margin-left: -1em;
+  color: rgb(236, 239, 241);
+}
+.ic_mobile .path5:before {
+  content: "\e938";
+  margin-left: -1em;
+  color: rgb(159, 168, 218);
+}
+.ic_mobile .path6:before {
+  content: "\e939";
+  margin-left: -1em;
+  color: rgb(159, 168, 218);
+}
+.ic_mobile .path7:before {
+  content: "\e93a";
+  margin-left: -1em;
+  color: rgb(159, 168, 218);
+}
+.ic_paypal .path1:before {
+  content: "\e93b";
+  color: rgb(21, 101, 192);
+}
+.ic_paypal .path2:before {
+  content: "\e93c";
+  margin-left: -1em;
+  color: rgb(3, 155, 229);
+}
+.ic_paypal .path3:before {
+  content: "\e93d";
+  margin-left: -1em;
+  color: rgb(40, 53, 147);
+}
+.ic_driver_marker:before {
+  content: "\e93e";
+  color: #5b4daf;
+}
+.ic_driver_location:before {
+  content: "\e93f";
+}
+.ic_clear:before {
+  content: "\e940";
+}
+.ic_description:before {
+  content: "\e941";
+}
+.ic_privacy:before {
+  content: "\e942";
+}
+.ic_privacy_lock:before {
+  content: "\e943";
+}
+.ic_arrow:before {
+  content: "\e944";
+}
+.ic_vip:before {
+  content: "\e945";
+}
+.ic_passenger_vip:before {
+  content: "\e946";
+}
+.ic_close:before {
+  content: "\e947";
+}
+.ic_mobile_payment:before {
+  content: "\e948";
+}
+.ic_payment_card:before {
+  content: "\e949";
+}
+.ic_amex .path1:before {
+  content: "\e94a";
+  color: rgb(25, 118, 210);
+}
+.ic_amex .path2:before {
+  content: "\e94b";
+  margin-left: -1em;
+  color: rgb(255, 255, 255);
+}
+.ic_amex .path3:before {
+  content: "\e94c";
+  margin-left: -1em;
+  color: rgb(255, 255, 255);
+}
+.ic_discover .path1:before {
+  content: "\e94d";
+  color: rgb(225, 231, 234);
+}
+.ic_discover .path2:before {
+  content: "\e94e";
+  margin-left: -1em;
+  color: rgb(255, 109, 0);
+}
+.ic_discover .path3:before {
+  content: "\e94f";
+  margin-left: -1em;
+  color: rgb(0, 0, 0);
+}
+.ic_mastercard .path1:before {
+  content: "\e950";
+  color: rgb(63, 81, 181);
+}
+.ic_mastercard .path2:before {
+  content: "\e951";
+  margin-left: -1em;
+  color: rgb(255, 193, 7);
+}
+.ic_mastercard .path3:before {
+  content: "\e952";
+  margin-left: -1em;
+  color: rgb(255, 61, 0);
+}
+.ic_visa .path1:before {
+  content: "\e953";
+  color: rgb(21, 101, 192);
+}
+.ic_visa .path2:before {
+  content: "\e954";
+  margin-left: -1em;
+  color: rgb(255, 255, 255);
+}
+.ic_visa .path3:before {
+  content: "\e955";
+  margin-left: -1em;
+  color: rgb(255, 255, 255);
+}
+.ic_visa .path4:before {
+  content: "\e956";
+  margin-left: -1em;
+  color: rgb(255, 255, 255);
+}
+.ic_visa .path5:before {
+  content: "\e957";
+  margin-left: -1em;
+  color: rgb(255, 255, 255);
+}
+.ic_visa .path6:before {
+  content: "\e958";
+  margin-left: -1em;
+  color: rgb(255, 193, 7);
+}
+.ic_search:before {
+  content: "\e959";
+}
+.ic_cab:before {
+  content: "\e95a";
+}
+.ic_no_payment:before {
+  content: "\e95b";
+}
+.ic_calendar:before {
+  content: "\e95c";
+}
+.ic_person:before {
+  content: "\e95d";
+}
+.ic_expiry:before {
+  content: "\e95e";
+}
+.ic_lock_filled:before {
+  content: "\e95f";
+}
+.ic_debit_credit:before {
+  content: "\e960";
+}
+.ic_visa_card:before {
+  content: "\e961";
+}
+.ic_refresh:before {
+  content: "\e962";
+}
+.ic_placeholder:before {
+  content: "\e963";
+}
+.ic_country:before {
+  content: "\e964";
+}
+.ic_edit_profile:before {
+  content: "\e965";
+}
+.ic_email:before {
+  content: "\e966";
+}
+.ic_phone:before {
+  content: "\e967";
+}
+.ic_home:before {
+  content: "\e968";
+}
+.ic_about:before {
+  content: "\e969";
+}
+.ic_edit:before {
+  content: "\e96a";
+}
+.ic_add:before {
+  content: "\e96b";
+}
+.ic_trash:before {
+  content: "\e96c";
+}
+.ic_separator:before {
+  content: "\e96d";
+}
+.ic_money:before {
+  content: "\e96e";
+}
+.ic_from_filled:before {
+  content: "\e96f";
+}
+.ic_distance:before {
+  content: "\e970";
+}
+.ic_alarm:before {
+  content: "\e971";
+}
+.ic_pickup:before {
+  content: "\e972";
+}
+.ic_place:before {
+  content: "\e973";
+}
+.ic_journey:before {
+  content: "\e974";
+}
+.ic_wallet:before {
+  content: "\e975";
+}
+.ic_alerts:before {
+  content: "\e976";
+}
+.ic_sign_out:before {
+  content: "\e977";
+}
+.ic_myLocation:before {
+  content: "\e978";
+}
+.ic_ic_clear:before {
+  content: "\e979";
+}
+.ic_location:before {
+  content: "\e97a";
+}
+.ic_close_circle:before {
+  content: "\e97b";
+}
+.ic_person_plus:before {
+  content: "\e97c";
+}
+.ic_myj:before {
+  content: "\e97d";
+}
+.ic_profile:before {
+  content: "\e97e";
+}
+.ic_person_minus:before {
+  content: "\e97f";
+}
